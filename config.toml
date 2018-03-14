@@ -1,5 +1,5 @@
 baseURL = "https://wazihub.appspot.com/"
 languageCode = "en-us"
 title = "WAZIHUB"
-theme = "wazihub"
+theme = "wazihub-hugo"
 publishDir = "public/wazihub/www"
