@@ -1,5 +1,22 @@
-baseURL = "https://wazihub.appspot.com/"
+baseURL = "https://wazihub-web.firebaseapp.com/"
 languageCode = "en-us"
-title = "WAZIHUB"
-theme = "wazihub-hugo"
-publishDir = "public/wazihub/www"
+title = "wazihub"
+theme = "hyperion"
+publishDir = "public"
+
+
+[[menu.main]]
+    name = "home"
+    weight = -10
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "accelerator"
+    identifier = "accelerator"
+    weight = -9
+    url = "/accelerator/"
+[[menu.main]]
+    name = "use cases"
+    identifier = "use_cases"
+    weight = -8
+    url = "/use_cases/"

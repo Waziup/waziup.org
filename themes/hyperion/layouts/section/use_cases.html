@@ -1,0 +1,79 @@
+{{ define "main" }}
+        <!-- HEADER -->
+        {{ partial "header.html" . }}
+        <!-- END HEADER -->
+        <!-- INNER CONTAINER -->
+        <div class="inner-container">
+           <!-- SECTION -->
+           <section class="text-center medium-height parallax" data-overlay="5" data-jarallax data-speed="0.2">
+            <img class="jarallax-img" src="{{ .Site.BaseURL }}assets/images/background/use_case1.jpg" alt="">
+            <div class="v-middle">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <h2 class="reveal-from-bottom">WAZIUP Use Cases</h2>
+                        <h4 class="subheader reveal-from-bottom">WAZIUP cutting-edge IoT PaaS platform and software framework support to develop 1000 of IoT applications, out of the box. Any IoT application that you can imagine. Due to the PaaS nature WAZIUP IoT PaaS platform enable you to easy and rapid IoT application development.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION -->
+
+             <!-- SECTION -->
+             <section class="split-section overlap">
+                    <div class="row fullwidth">
+                       <div class="medium-6 columns v-middle pl90 pr130 dark-bg">
+                          <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                            <h3 class="reveal-from-bottom">Agriculture</h3>
+                            <p class="lead reveal-from-bottom">The smart farming applications may include monitoring of soil moisture, monitoring of water storage and field conditions (weather/rainfall, soil moisture, conductivity, etc.) and agro-management decisions (date of sowing, irrigation, fertilizing). Farmers can monitor temperature of storage areas and receive alerts if temperature is above acceptable ranges.</p>
+                            <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                         </div> 
+                        <div class="medium-6 columns v-middle pl90 pr130 light-bg">
+                          <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                            <h3 class="reveal-from-bottom">Fish Farming</h3>
+                            <p class="lead reveal-from-bottom">WAZIUP platform enables you to connect to a network of sensors to monitor the fish ponds in real time, measuring water temperature, quality, oxygen levels and other parameters. This will help improve the current farm management process by giving farmers the ability to monitor their ponds remotely and in a near real-time.</p>
+                            <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                        </div>
+                    </div>
+                    <div class="row fullwidth">
+                        <div class="medium-6 columns v-middle pl90 pr130 light-bg">
+                           <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                             <h3 class="reveal-from-bottom">Water</h3>
+                             <p class="lead reveal-from-bottom">WAZIUP platform enables you to monitor the pond water quantity. A water management system based on IoT for rural areas and developing countries can help the Community representative monitor and manage water use more efficiently.</p>
+                             <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                            <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" />-->
+                          </div> 
+                         <div class="medium-6 columns v-middle pl90 pr130 dark-bg">
+                           <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                             <h3 class="reveal-from-bottom">Smart City</h3>
+                             <p class="lead reveal-from-bottom">WAZIUP supports to develop various smart city applications like urban waste management, public transportation, street-light monitoring, traffic monitoring, smart parking, waste water management, urban air pollution, tourism, etc.</p>
+                             <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                            <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" /> -->
+                         </div>
+                     </div>
+                     <div class="row fullwidth">
+                        <div class="medium-6 columns v-middle pl90 pr130 dark-bg">
+                           <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                             <h3 class="reveal-from-bottom">Cattle Farms</h3>
+                             <p class="lead reveal-from-bottom">Cattle rustling is one of the main problem in developing countries. WAZIUP platform can offer farmer to monitor real-time the cattle situation in order to have viable solution to prevent a theft. The Farmer will receive alert for any critical condition especially the theft.</p>
+                             <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                            <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" />-->
+                          </div> 
+                         <div class="medium-6 columns v-middle pl90 pr130 light-bg">
+                           <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                             <h3 class="reveal-from-bottom">Logistics</h3>
+                             <p class="lead reveal-from-bottom">WAZIUP Logistic use case could connect “rural” areas with urban areas. The potential case study are tracking the fleet, check the integrity, identification and authentication and traceability of the goods, monitoring the temperature and cooling condition of the goods.</p>
+                             <p><a class="button small rounded filled reveal-from-bottom" href="#">Deployments</a></p>
+                            <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" /> -->
+                         </div>
+                     </div>
+                </section>
+                <!-- END SECTION-->
+        </div>
+        <!-- END INNER CONTAINER -->
+        <!-- FOOTER -->
+        {{ partial "footer.html" . }}
+        <!-- END FOOTER -->
+        <!-- BACK TO TOP -->
+        <a href="#0" class="backtotop"></a>
+        <!-- END BACK TO TOP -->
+{{ end }}

@@ -1,0 +1,56 @@
+{{ define "main" }}
+        <!-- HEADER -->
+        {{ partial "header.html" . }}
+        <!-- END HEADER -->
+        <!-- INNER CONTAINER -->
+        <div class="inner-container">
+            <!-- SECTION -->
+            <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
+                <img class="jarallax-img" src="{{ .Site.BaseURL }}assets/images/background/about.jpg" alt="">
+                <div class="v-middle">
+                    <div class="row">
+                        <div class="large-12 columns text-left">
+                            <!--<h5 class="topheading reveal-from-bottom">Achieve your goals</h5>-->
+                            <h2 class="reveal-from-bottom">WAZIHUB Accelerator<em>
+                                <br><strong>IoT and Big-Data</strong></em>
+                                <br>Innovation</h2>
+                            <!--<h4 class="subheader reveal-from-bottom">Accelerating Open IoT and Big-Data Innovation.</h4>-->
+                           <!-- <div class="video-button-modal reveal-from-bottom"><a data-rel="lightcase" href="https://www.youtube.com/embed/sf7SRVEChbY?autoplay=1"><span class="button small filled play"></span> </a> <span>WAZIUP intro video</span></div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END SECTION -->
+
+             <!-- SECTION -->
+             <section class="split-section overlap">
+                    <div class="row fullwidth">
+                       <div class="medium-6 columns v-middle pl90 pr130 dark-bg">
+                          <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                            <h3 class="reveal-from-bottom">Startups</h3>
+                            <p class="lead reveal-from-bottom">We provide technical and business capacity building for early stage IoT startups based in Africa. Startups go through ideation, prototyping and growth hacking support.</p>
+                            <p><a class="button small rounded filled reveal-from-bottom" href="#"> Read More</a></p>
+                           <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" />-->
+                         </div> 
+                        <div class="medium-6 columns v-middle pl90 pr130 light-bg">
+                          <!--  <h5 class="topheading reveal-from-bottom">Michellin Starred Chef</h5>-->
+                            <h3 class="reveal-from-bottom">Tech Hubs</h3>
+
+
+                            <p class="lead reveal-from-bottom">Tech hubs in our ecosystem manage the WAZIHUB IoT accelerator program which provides inspiration and support for the next generation of IoT entrepreneurs.</p>
+                            <p><a class="button small rounded filled reveal-from-bottom" href="#"> Read More</a></p>
+                           <!-- <img src="{{ .Site.BaseURL }}assets/images/signature.png" class="reveal-from-bottom mt30" /> -->
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- END SECTION-->
+        </div>
+        <!-- END INNER CONTAINER -->
+        <!-- FOOTER -->
+        {{ partial "footer.html" . }}
+        <!-- END FOOTER -->
+        <!-- BACK TO TOP -->
+        <a href="#0" class="backtotop"></a>
+        <!-- END BACK TO TOP -->
+{{ end }}

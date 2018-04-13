@@ -1,0 +1,79 @@
+<footer class="footer-2" data-overlay="0">
+        <div class="v-middle">
+            <div class="row">
+                <div class="large-3 medium-12 columns">
+                    <div class="footer-logo">
+                        <a href="#"><img src="{{ .Site.BaseURL }}assets/images/wazihublogo.png" width="140" alt=""></a>
+                    </div>
+                    <!-- <p class="merriweather-font">Premium quality multipurpose HTML template</p> --> 
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="https://twitter.com/wazihub" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/wazihub/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="large-3 medium-4 columns">
+                    <div class="footer-links">
+                        <h5>Quick links</h5>
+                        <ul>
+                                {{ $currentPage := . }}
+                                {{ range .Site.Menus.main }}
+                                  {{ if .HasChildren }}
+                                    <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                                      <a href="#">
+                                        {{ .Pre }}
+                                        {{ .Name }}
+                                      </a><i class="fa fa-angle-down"></i>
+                                      <ul class="drop-down one-column">
+                                        {{ range .Children }}
+                                          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                            <a href="{{ .URL }}">{{ .Name }}</a>
+                                        {{ end }}
+                                      </ul>
+                                  {{else}}
+                                    <li>
+                                      <a href="{{.URL}}">
+                                        {{ .Pre }}
+                                        {{ .Name }}
+                                      </a>
+                                  {{end}}
+                                {{end}} 
+                        </ul>
+                    </div>
+                </div>
+                <div class="large-3 medium-4 columns">
+                    <div class="footer-links">
+                        <h5>Categories</h5>
+                        <ul>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Use Cases</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="large-3 medium-4 columns">
+                    <div class="footer-links">
+                        <h5>Recent posts</h5>
+                        <ul>
+                            {{ range first 3 .Data.Pages -}}
+                                <li>
+                                       <!-- {{ .Permalink }} -->
+                                    <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> <span>{{ .Date.Format "Mon, Jan 2, 2006" }}</span> 
+                                </li>
+                            {{- end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="row">
+                    <div class="large-12 columns text-center">
+                        <p class="copyright">&copy; 2018 WAZIHUB. Made by <a href="https://cloudport.tech">Cloud Port</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
