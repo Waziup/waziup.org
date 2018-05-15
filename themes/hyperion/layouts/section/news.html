@@ -1,0 +1,118 @@
+{{ define "main" }}
+    <!-- HEADER -->
+    {{ partial "header.html" . }}
+    <!-- END HEADER -->
+    <!-- INNER CONTAINER -->
+    <div class="inner-container">
+            <!-- SECTION -->
+            <section style="padding-top:0%; padding-bottom:0%" class="parallax" data-overlay="5" data-jarallax data-speed="0.2">
+                    <img class="jarallax-img" src="{{ .Site.BaseURL }}assets/images/background/about.jpg" alt="">    
+                <div class="v-middle">
+                        <div class="row">
+                            <div class="large-12 columns text-center">
+                                <h2>Newsroom</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- END SECTION -->
+            <!-- SECTION -->
+            <section class="pt0 pb0" data-overlay="0">
+                <div class="row">
+                    <div class="large-9 columns mt80 small-mt40 pr60">
+                        <div class="grid two-columns spaced boxed mb60 small-mb30">
+                            <div class="grid-sizer"></div>
+                            <!-- BLOG ENTRY -->
+                            {{ range .Data.Pages}}
+                            <div class="grid-item masonry-item blog-entry">
+                                <div class="inner">
+                                    <a href="{{ .Permalink }}">
+                                            {{ if .Params.featured_img }}
+                                            <span class="post-image"><img src="{{ .Site.BaseURL }}{{.Params.featured_img}}" alt=""></span>
+                                            {{ end }}
+                                            <span class="post-date">
+                                        {{ with .Params.date }}
+                                            {{ dateFormat "Monday, Jan 2 2006" . }}
+                                        {{ end }}</span>
+                    <div class="post-text">
+                      <h4>{{ .Title }}</h4>
+                      <p>{{ .Summary  }}</p>
+                    </div>
+                  </a> 
+                  <!--<span class="author-avatar"><span></span> <a class="author-name">Location: <span>Uganda</span></a> </span> -->
+                                </div>
+                            </div>
+                            {{ end }}
+                            <!-- END BLOG ENTRY -->
+                        </div>
+                        <!-- PAGINATION 
+                        <div class="pagination mt80">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <ul class="pagination-inner">
+                                        <li>
+                                            <a href="#"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a>
+                                        </li>
+                                        <li class="active"> <a href="#">1</a> </li>
+                                        <li> <a href="#">2</a> </li>
+                                        <li> <a href="#">3</a> </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>-->
+                          <!-- END PAGINATION -->
+                    </div>
+
+                    <!-- RIGHT SIDEBAR -->
+                    <div class="large-3 columns right-sidebar">
+                        <div class="sidebar-inner">
+                            <!-- WIDGET 
+                            <div class="widget">
+                                <h6>Events</h6>
+                                <p>From bi-weekly free lectures on how IoT is impacting different parts of our society, to our annual WAZIHUB Summit, featuring talks by industry experts, our consortium hosts and attend many events every year.</p>
+                            </div>-->
+                            <!-- END WIDGET -->
+                            <!-- WIDGET 
+                            <div class="widget">
+                                <h6>Categories</h6>
+                                <ul>
+                                    <li><a href="#">Course</a></li>
+                                    <li><a href="#">Talk</a></li>
+                                    <li><a href="#">Workshop</a></li>
+                                    <li><a href="#">Exhibition</a></li>
+                                </ul>
+                            </div>-->
+                            <!-- END WIDGET -->
+                            <!-- WIDGET -->
+                            <!-- WIDGET -->
+                            {{ partial "widget-sidebar-recent-posts.html" . }}
+                            <!-- END WIDGET -->
+                            <!-- END WIDGET -->
+                            <!-- WIDGET
+                            <div class="widget">
+                                <h6>Archives</h6>
+                                <ul>
+                                    <li><a href="#">May 2015</a></li>
+                                    <li><a href="#">June 2015</a></li>
+                                    <li><a href="#">July 2015</a></li>
+                                    <li><a href="#">August 2015</a></li>
+                                </ul>
+                            </div>-->
+                            <!-- END WIDGET -->
+                        </div>
+                    </div>
+                    <!-- END RIGHT SIDEBAR -->
+
+                </div>
+            </section>
+            <!-- END SECTION -->
+
+        </div>
+    <!-- END INNER CONTAINER -->
+    <!-- FOOTER -->
+    {{ partial "footer.html" . }}
+    <!-- END FOOTER -->
+{{ end }}

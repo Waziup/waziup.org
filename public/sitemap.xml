@@ -3,35 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/use_cases/</loc>
+    <loc>https://wazihub.com/news/wazihub-launched/</loc>
+    <lastmod>2018-05-01T09:04:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/news/join-waziup/</loc>
+    <lastmod>2018-04-20T13:14:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/contact/</loc>
+    <lastmod>2018-04-16T14:00:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/use_cases/</loc>
     <lastmod>2018-03-26T08:41:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/accelerator/</loc>
+    <loc>https://wazihub.com/accelerator/</loc>
     <lastmod>2018-03-23T15:41:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/events/</loc>
+    <loc>https://wazihub.com/events/</loc>
     <lastmod>2018-03-23T15:41:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/categories/</loc>
+    <loc>https://wazihub.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/about/</loc>
+    <loc>https://wazihub.com/news/</loc>
+    <lastmod>2018-05-01T09:04:45+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/</loc>
+    <loc>https://wazihub.com/about/</loc>
   </url>
   
   <url>
-    <loc>https://wazihub-web.firebaseapp.com/tags/</loc>
+    <loc>https://wazihub.com/</loc>
+    <lastmod>2018-05-01T09:04:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/tags/</loc>
     <priority>0</priority>
   </url>
   

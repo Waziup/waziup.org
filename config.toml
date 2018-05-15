@@ -1,4 +1,4 @@
-baseURL = "https://wazihub-web.firebaseapp.com/"
+baseURL = "https://wazihub.com/"
 languageCode = "en-us"
 title = "wazihub"
 theme = "hyperion"
@@ -20,3 +20,26 @@ publishDir = "public"
     identifier = "use_cases"
     weight = -8
     url = "/use_cases/"
+[[menu.main]]
+    name = "technology"
+    identifier = "technology"
+    weight = -7
+    url = "http://www.waziup.io"    
+[[menu.main]]
+    name = "news & blog"
+    identifier = "newsroom"
+    weight = -6
+    url = "/news/"    
+[[menu.main]]
+    name = "contact"
+    identifier = "contact"
+    parent = "about"
+    weight = -5
+    url = "/contact/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = -4
+    url = "/about/"    
+   
+    

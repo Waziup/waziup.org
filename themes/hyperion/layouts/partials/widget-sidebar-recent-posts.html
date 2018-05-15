@@ -1,0 +1,12 @@
+<div class="widget">
+        <h6>Recent Posts</h6>
+        <ul>{{ range first 6 .Data.Pages -}}
+            <li>                                    
+                <a href="{{ .Permalink }}">
+<!-- <span class="thumb"><img src="{{ .Site.BaseURL }}assets/images/blogpost_thumb1.jpg"/></span> -->
+<span class="description"><h5>{{ .Title }}</h5><span>{{ .Date.Format "Mon, Jan 2, 2006" }}</span></span>
+</a>
+            </li>
+            {{- end }}
+        </ul>
+</div>

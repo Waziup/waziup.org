@@ -1,0 +1,63 @@
+{{ define "main" }}
+        <!-- HEADER -->
+        {{ partial "header.html" . }}
+        <!-- END HEADER -->
+        <!-- INNER CONTAINER -->
+        <div class="inner-container">
+            <!-- SECTION -->
+            <section style="padding-top:0%; padding-bottom:0%" class="parallax" data-overlay="5" data-jarallax data-speed="0.2">
+                    <img class="jarallax-img" src="{{ .Site.BaseURL }}assets/images/background/about.jpg" alt="">    
+                <div class="v-middle">
+                        <div class="row">
+                            <div class="large-12 columns text-center">
+                                <h2>Contact Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- END SECTION -->
+                        
+                            <!-- SECTION -->
+                            <section>
+                                <div class="row">
+                                    <div class="medium-4 columns mb50">
+                                        <h3>Address:</h3>
+                                        <p><strong>Project Coordinator</strong><br/>
+                                         <a href="mailto:arahim@fbk.eu">Dr, -Ing Abdur Rahim</a><br/>
+                                        Fondazione Bruno Kessier (FBK) <br/> Via Cascata 56D<br/> 38121 Povo<br/> Trento (Italy)</p>
+                                        
+                                         <p><strong>Innovation Manager</strong><br/>
+                                         <a href="mailto:fiifi@ispacegh.com">Fiifi Baidoo</a><br/>
+                                        iSpace Foundation<br/> 205/6 2nd Emmause Lane<br/> Labone, Accra<br/> Ghana</p>
+                                        
+                                        <!--<h5>Give us a call</h5>
+                                        <p>London: +123 777 888 999<br/> New York: +555 444 333 222</p>
+                                        <h5>Email us</h5>
+                                        <p>Sales: <a href="mailto:sales@hyperion.com">sales@hyperion.com</a><br/> Support: <a href="mailto:support@hyperion.com">support@hyperion.com</a></p>
+                                        <h5>Social</h5>
+                                        <ul class="social-icons-block2">
+                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                        </ul>-->
+                                    </div>
+                                    <div class="medium-8 columns">
+                                        <div class="form-block">
+                                            <h5>Get In Touch</h5>
+                                            <div class="typeform-widget" data-url="https://fiifibaidoo.typeform.com/to/iAZIee" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=iAZIee&utm_source=typeform.com-12008006-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- END SECTION -->
+        </div>
+        <!-- END INNER CONTAINER -->
+        <!-- FOOTER -->
+        {{ partial "footer.html" . }}
+        <!-- END FOOTER -->
+        <!-- BACK TO TOP -->
+        <a href="#0" class="backtotop"></a>
+        <!-- END BACK TO TOP -->
+{{ end }}
