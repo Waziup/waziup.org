@@ -2,7 +2,8 @@
 title: WAZIHUB Launched in Kampala, Uganda
 date: 2018-05-01 09:04:45 +0300
 featured_img: "/img/wazihub-launch.jpg"
-
+tags: ["IoT Community", "Africa", "Startups", "Uganda"]
+categories: ["News"]
 ---
 WAZIHUB, an Internet of Things Innovation program, launched today in Kampala, Uganda, as a collaborative problem solving and innovative approach to foster creation of IoT products and services. The launch took place at HiveColab, one of the consortium partners based in Sub-Saharan Africa. HiveColab is an innovation hub and startup incubator in Kampala.
 

@@ -3,7 +3,16 @@ languageCode = "en-us"
 title = "wazihub"
 theme = "hyperion"
 publishDir = "public"
+enableRobotsTXT = true
+canonifyURLs = true
+googleAnalytics = "UA-117557016-2"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+    post = "/news/:title/"
 
 [[menu.main]]
     name = "home"
@@ -34,7 +43,7 @@ publishDir = "public"
     name = "contact"
     identifier = "contact"
     parent = "about"
-    weight = -5
+    weight = -10
     url = "/contact/"
 [[menu.main]]
     name = "about"

@@ -3,6 +3,8 @@ title: "Join Africa’s community for IOT enthusiasts!"
 date: 2018-04-20T13:14:21Z
 draft: false
 featured_img: "/img/wazi-front-page.jpg"
+tags: ["IoT Community", "Africa", "Innovation", "SSA","European Union", "WAZIUP", "Entrepreneurship", "Developers", "Tech Hubs"]
+categories: ["News"]
 ---
 
 _Join Africa’s community for IOT enthusiasts!_
