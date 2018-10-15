@@ -103,16 +103,14 @@
                         {{ range .Data.Pages}}
                         <li>
                             <span class="inner">
-                                <span class="price">{{ with .Params.start_date }}{{ dateFormat "Monday, Jan 2 2006" .
-                                    }}{{ end }} - {{ with .Params.end_date }}{{ dateFormat "Monday, Jan 2 2006" . }}{{
-                                    end }}</span>
+                                <span class="price">{{ with .Params.start_date }}{{ dateFormat "Monday, Jan 2 2006" .}}{{ end }} - {{ with .Params.end_date }}{{ dateFormat "Monday, Jan 2 2006" . }}{{end }}</span>
                                 <span class="item">{{ .Title }}</span>
                                 <span class="description">
                                     {{ .Params.venue }}
                                 </span>
                             </span>
                             <span class="button-wrapper">
-                                <a href="#" class="button">Join Class</a>
+                                <a href="#" class="button">More Info</a>
                             </span>
                         </li>
                         {{ end }}
