@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redbull on wazihub</title>
+    <link>https://wazihub.com/tags/redbull/</link>
+    <description>Recent content in Redbull on wazihub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jun 2018 10:00:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://wazihub.com/tags/redbull/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WAZIHUB Redbull Hackathon</title>
+      <link>https://wazihub.com/news/wazihub-redbull-hacathon/</link>
+      <pubDate>Sat, 02 Jun 2018 10:00:57 +0000</pubDate>
+      
+      <guid>https://wazihub.com/news/wazihub-redbull-hacathon/</guid>
+      <description>&lt;p&gt;Redbull Commissioned The MakerSpace to help them deliver a tech component to their Innovation Festival.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

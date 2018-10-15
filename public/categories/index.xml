@@ -6,14 +6,24 @@
     <description>Recent content in Categories on wazihub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 06 Aug 2018 20:47:38 +0000</lastBuildDate>
     
 	<atom:link href="https://wazihub.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bootcamp</title>
+      <link>https://wazihub.com/categories/bootcamp/</link>
+      <pubDate>Mon, 06 Aug 2018 20:47:38 +0000</pubDate>
+      
+      <guid>https://wazihub.com/categories/bootcamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>https://wazihub.com/categories/news/</link>
-      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
       
       <guid>https://wazihub.com/categories/news/</guid>
       <description></description>

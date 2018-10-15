@@ -1,4 +1,4 @@
-baseURL = "https://wazihub.com/"
+baseURL = "https://wazihub.com"
 languageCode = "en-us"
 title = "wazihub"
 theme = "hyperion"
@@ -6,6 +6,7 @@ publishDir = "public"
 enableRobotsTXT = true
 canonifyURLs = true
 googleAnalytics = "UA-117557016-2"
+
 
 [taxonomies]
   category = "categories"
@@ -19,6 +20,11 @@ googleAnalytics = "UA-117557016-2"
     weight = -10
     identifier = "home"
     url = "/"
+[[menu.main]]
+    name = "bootcamps"
+    identifier = "bootcamps"
+    weight = -9
+    url = "/bootcamps/"
 [[menu.main]]
     name = "accelerator"
     identifier = "accelerator"
@@ -48,7 +54,7 @@ googleAnalytics = "UA-117557016-2"
 [[menu.main]]
     name = "about"
     identifier = "about"
-    weight = -4
+    weight = -9
     url = "/about/"    
    
     

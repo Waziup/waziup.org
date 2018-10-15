@@ -6,7 +6,7 @@
     <div class="inner-container">
             <!-- SECTION -->
             <section style="padding-top:0%; padding-bottom:0%" class="parallax" data-overlay="5" data-jarallax data-speed="0.2">
-                    <img class="jarallax-img" src="{{ .Site.BaseURL }}assets/images/background/about.jpg" alt="">    
+                    <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/background/about.jpg" alt="">    
                 <div class="v-middle">
                         <div class="row">
                             <div class="large-12 columns text-center">
@@ -34,11 +34,11 @@
                                         {{ with .Params.date }}
                                             {{ dateFormat "Monday, Jan 2 2006" . }}
                                         {{ end }}</span>
-                    <div class="post-text">
-                      <h4>{{ .Title }}</h4>
-                      <p>{{ .Summary  }}</p>
-                    </div>
-                  </a> 
+                                        <div class="post-text">
+                                            <h4>{{ .Title }}</h4>
+                                            <p>{{ .Summary  }}</p>
+                                        </div>
+                                    </a> 
                   <!--<span class="author-avatar"><span></span> <a class="author-name">Location: <span>Uganda</span></a> </span> -->
                                 </div>
                             </div>

@@ -1,0 +1,64 @@
+{{ define "main" }}
+    <!-- HEADER -->
+    {{ partial "header.html" . }}
+    <!-- END HEADER -->
+    <!-- INNER CONTAINER -->
+    <div class="inner-container">
+            <!-- SECTION -->
+            <section style="padding-top:0%; padding-bottom:0%" class="parallax" data-overlay="5" data-jarallax data-speed="0.2">
+                    <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/background/about.jpg" alt="">    
+                <div class="v-middle">
+                        <div class="row">
+                            <div class="large-12 columns text-center">
+                                <h2>Newsroom</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- END SECTION -->
+            <!-- SECTION -->
+            <section class="pt0 pb0" data-overlay="0">
+                <div class="row">
+                    <div class="large-9 columns mt80 small-mt40 pr60">
+                        <div class="grid two-columns spaced boxed mb60 small-mb30">
+                            <div class="grid-sizer"></div>
+                            <!-- BLOG ENTRY -->
+                            {{ range .Data.Pages}}
+                            <div class="grid-item masonry-item blog-entry">
+                                <div class="inner">
+                                    <a href="{{ .Permalink }}">
+                                            {{ if .Params.featured_img }}
+                                            <span class="post-image"><img src="{{ .Site.BaseURL }}{{.Params.featured_img}}" alt=""></span>
+                                            {{ end }}
+                                            <span class="post-date">
+                                        {{ with .Params.date }}
+                                            {{ dateFormat "Monday, Jan 2 2006" . }}
+                                        {{ end }}</span>
+                                        <div class="post-text">
+                                            <h4>{{ .Title }}</h4>
+                                            <p>{{ .Summary  }}</p>
+                                        </div>
+                                    </a> 
+                                </div>
+                            </div>
+                            {{ end }}
+                            <!-- END BLOG ENTRY -->
+                        </div>
+                    </div>
+
+                    <!-- RIGHT SIDEBAR -->
+                    <div class="large-3 columns right-sidebar">
+                        <div class="sidebar-inner">
+                        </div>
+                    </div>
+                    <!-- END RIGHT SIDEBAR -->
+                </div>
+            </section>
+            <!-- END SECTION -->
+
+        </div>
+    <!-- END INNER CONTAINER -->
+    <!-- FOOTER -->
+    {{ partial "footer.html" . }}
+    <!-- END FOOTER -->
+{{ end }}

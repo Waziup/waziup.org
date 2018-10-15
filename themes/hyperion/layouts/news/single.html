@@ -6,7 +6,7 @@
     <div class="inner-container">
             <!-- SECTION -->
             <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
-                <img class="jarallax-img" src="{{ .Site.BaseURL }}{{.Params.featured_img}}" alt="">
+                <img class="jarallax-img" src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt="">
                 <div class="v-middle">
                     <div class="row">
                         <div class="large-12 columns text-center">
@@ -35,9 +35,20 @@
                         </div>
                     <!-- END BLOG ENTRY -->
                     </div>
+                    {{ if .Params.featured_vid }}
+                    <div class="row">
+                            <div class="large-12 columns text-center mb100 small-mb50"></div>
+                            <div class="large-12 columns text-center reveal-from-bottom">
+                                <div class="video-placeholder video-box reveal-from-bottom">
+                                    <a data-rel="lightcase" href="{{.Params.featured_vid}}?autoplay=1"> <img src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt=""> <span class="button filled filled play"></span> </a>
+                                </div>
+                            </div>
+                    </div>
+                    {{ end }}
                 </div>
             </section>
             <!-- END SECTION -->
+        <!-- END SECTION -->
         {{ if .Params.gallery }}
         <!-- SECTION -->
         <section class="fullwidth">

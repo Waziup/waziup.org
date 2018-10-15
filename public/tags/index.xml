@@ -6,7 +6,7 @@
     <description>Recent content in Tags on wazihub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 09:04:45 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 12:37:37 +0000</lastBuildDate>
     
 	<atom:link href="https://wazihub.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Africa</title>
       <link>https://wazihub.com/tags/africa/</link>
-      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
       
       <guid>https://wazihub.com/tags/africa/</guid>
       <description></description>
@@ -59,9 +59,27 @@
     <item>
       <title>Iot Community</title>
       <link>https://wazihub.com/tags/iot-community/</link>
-      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
       
       <guid>https://wazihub.com/tags/iot-community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kumasi</title>
+      <link>https://wazihub.com/tags/kumasi/</link>
+      <pubDate>Mon, 06 Aug 2018 20:47:38 +0000</pubDate>
+      
+      <guid>https://wazihub.com/tags/kumasi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redbull</title>
+      <link>https://wazihub.com/tags/redbull/</link>
+      <pubDate>Sat, 02 Jun 2018 10:00:57 +0000</pubDate>
+      
+      <guid>https://wazihub.com/tags/redbull/</guid>
       <description></description>
     </item>
     
@@ -77,7 +95,7 @@
     <item>
       <title>Startups</title>
       <link>https://wazihub.com/tags/startups/</link>
-      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
       
       <guid>https://wazihub.com/tags/startups/</guid>
       <description></description>
@@ -95,9 +113,18 @@
     <item>
       <title>Uganda</title>
       <link>https://wazihub.com/tags/uganda/</link>
-      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
       
       <guid>https://wazihub.com/tags/uganda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wazihub</title>
+      <link>https://wazihub.com/tags/wazihub/</link>
+      <pubDate>Sat, 02 Jun 2018 10:00:57 +0000</pubDate>
+      
+      <guid>https://wazihub.com/tags/wazihub/</guid>
       <description></description>
     </item>
     
