@@ -1,73 +1,74 @@
 {{ define "main" }}
-    <!-- HEADER -->
-    {{ partial "header.html" . }}
-    <!-- END HEADER -->
-    <!-- INNER CONTAINER -->
-    <div class="inner-container">
-            <!-- SECTION -->
-            <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
-                <img class="jarallax-img" src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt="">
-                <div class="v-middle">
-                    <div class="row">
-                        <div class="large-12 columns text-center">
-                           <!-- <h5 class="topheading reveal-from-bottom">Travelling</h5>-->
-                            <h2 class="reveal-from-bottom">{{ .Title }}</h2>
-                            <!-- POST META -->
-                            <div class="post-meta reveal-from-bottom">
-                                <ul>
-                                    <!--<li>By: <a href="#">James Parker</a></li> -->
-                                    <li>On: <span>{{ .Date.Format "Mon Jan 2, 2006" }}</span></li>
-                                </ul>
-                            </div>
-                            <!-- END POST META -->
-                        </div>
+<!-- HEADER -->
+{{ partial "header.html" . }}
+<!-- END HEADER -->
+<!-- INNER CONTAINER -->
+<div class="inner-container">
+    <!-- SECTION -->
+    <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
+        <img class="jarallax-img" src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt="">
+        <div class="v-middle">
+            <div class="row">
+                <div class="large-12 columns text-center">
+                    <!-- <h5 class="topheading reveal-from-bottom">Travelling</h5>-->
+                    <h2 class="reveal-from-bottom">{{ .Title }}</h2>
+                    <!-- POST META -->
+                    <div class="post-meta reveal-from-bottom">
+                        <ul>
+                            <!--<li>By: <a href="#">James Parker</a></li> -->
+                            <li>On: <span>{{ .Date.Format "Mon Jan 2, 2006" }}</span></li>
+                        </ul>
+                    </div>
+                    <!-- END POST META -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION -->
+    <!-- SECTION -->
+    <section>
+        <div class="row">
+            <div class="large-9 small-12 large-centered columns reveal-from-bottom">
+                <!-- BLOG ENTRY -->
+                <div class="blog-post">
+                    {{ .Content }}
+                </div>
+                <!-- END BLOG ENTRY -->
+            </div>
+            {{ if .Params.featured_vid }}
+            <div class="row">
+                <div class="large-12 columns text-center mb100 small-mb50"></div>
+                <div class="large-12 columns text-center reveal-from-bottom">
+                    <div class="video-placeholder video-box reveal-from-bottom">
+                        <a data-rel="lightcase" href="{{.Params.featured_vid}}?autoplay=1"> <img src="{{ .Site.BaseURL }}/{{.Params.featured_img}}"
+                                alt=""> <span class="button filled filled play"></span> </a>
                     </div>
                 </div>
-            </section>
-            <!-- END SECTION -->
-            <!-- SECTION -->
-            <section>
-                <div class="row">
-                    <div class="large-9 small-12 large-centered columns reveal-from-bottom">
-                      <!-- BLOG ENTRY -->
-                        <div class="blog-post">
-                            {{ .Content }}
-                        </div>
-                    <!-- END BLOG ENTRY -->
-                    </div>
-                    {{ if .Params.featured_vid }}
-                    <div class="row">
-                            <div class="large-12 columns text-center mb100 small-mb50"></div>
-                            <div class="large-12 columns text-center reveal-from-bottom">
-                                <div class="video-placeholder video-box reveal-from-bottom">
-                                    <a data-rel="lightcase" href="{{.Params.featured_vid}}?autoplay=1"> <img src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt=""> <span class="button filled filled play"></span> </a>
-                                </div>
-                            </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </section>
-            <!-- END SECTION -->
-        <!-- END SECTION -->
-        {{ if .Params.gallery }}
-        <!-- SECTION -->
-        <section class="fullwidth">
-                <div class="grid four-columns metro spaced">
-                    <div class="grid-sizer"></div>
-                    {{ range .Params.gallery }}
-                                <div class="grid-item">
-                                    <div class="portfolio-item-effect">
-                                        <a href="{{ index . 0 }}" data-rel="lightcase:gallery2"><img src="{{ index . 0 }}" alt=""></a>
-                                    </div>
-                                </div>
-                                {{ end }}
-                </div>
-            </section>
-            <!-- END SECTION -->
+            </div>
             {{ end }}
         </div>
-    <!-- END INNER CONTAINER -->
-    <!-- FOOTER -->
-    {{ partial "footer.html" . }}
-    <!-- END FOOTER -->
+    </section>
+    <!-- END SECTION -->
+    <!-- END SECTION -->
+    {{ if .Params.gallery }}
+    <!-- SECTION -->
+    <section class="fullwidth">
+        <div class="grid four-columns metro spaced">
+            <div class="grid-sizer"></div>
+            {{ range .Params.gallery }}
+            <div class="grid-item">
+                <div class="portfolio-item-effect">
+                    <a href="{{ index . 0 }}" data-rel="lightcase:gallery2"><img src="{{ index . 0 }}" alt=""></a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    <!-- END SECTION -->
+    {{ end }}
+</div>
+<!-- END INNER CONTAINER -->
+<!-- FOOTER -->
+{{ partial "footer.html" . }}
+<!-- END FOOTER -->
 {{ end }}
