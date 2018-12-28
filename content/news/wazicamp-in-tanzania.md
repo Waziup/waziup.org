@@ -4,7 +4,7 @@ date = "2018-08-06T20:47:38.000+00:00"
 draft = true
 featured_img = "/uploads/2018/12/28/00000IMG_00000_BURST20181009112101902_COVER.jpg"
 gallery = [["/img/bootcamps/ksi/ksi1.jpg"], ["/img/bootcamps/ksi/ksi2.jpg"], ["/img/bootcamps/ksi/ksi3.jpg"], ["/img/bootcamps/ksi/ksi4.jpg"], ["/img/bootcamps/ksi/ksi6.jpg"], ["/img/bootcamps/ksi/ksi7.jpg"], ["/img/bootcamps/ksi/ksi9.jpg"], ["/img/bootcamps/ksi/ksi10.jpg"], ["/img/bootcamps/ksi/ksi12.jpg"], ["/img/bootcamps/ksi/ksi13.jpg"], ["/img/bootcamps/ksi/ksi14.jpg"], ["/img/bootcamps/ksi/ksi15.jpg"], ["/img/bootcamps/ksi/ksi16.jpg"], ["/img/bootcamps/ksi/ksi17.jpg"], ["/img/bootcamps/ksi/ksi18.jpg"], ["/img/bootcamps/ksi/ksi19.jpg"], ["/img/bootcamps/ksi/ksi20.jpg"], ["/img/bootcamps/ksi/ksi21.jpg"], ["/img/bootcamps/ksi/ksi22.jpg"], ["/img/bootcamps/ksi/ksi23.jpg"], ["/img/bootcamps/ksi/ksi24.jpg"], ["/img/bootcamps/ksi/ksi25.jpg"], ["/img/bootcamps/ksi/ksi26.jpg"], ["/img/bootcamps/ksi/ksi27.jpg"], ["/img/bootcamps/ksi/ksi28.jpg"], ["/img/bootcamps/ksi/ksi29.jpg"], ["/img/bootcamps/ksi/ksi30.jpg"], ["/img/bootcamps/ksi/ksi31.jpg"]]
-tags = ["IoT Community", "Africa", "Startups", "Kumasi"]
+tags = ["IoT Community", "Africa", "Startups", "dar es salaam"]
 title = "WAZICamp in Tanzania"
 
 +++
