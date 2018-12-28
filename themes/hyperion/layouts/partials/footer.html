@@ -1,7 +1,7 @@
 <footer class="footer-2" data-overlay="0">
         <div class="v-middle">
             <div class="row">
-                <div class="large-3 medium-12 columns">
+                <div class="large-2 medium-4 columns">
                     <div class="footer-logo">
                         <a href="#"><img src="{{ .Site.BaseURL }}/assets/images/wazihublogo.png" width="140" alt=""></a>
                     </div>
@@ -13,33 +13,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="large-3 medium-4 columns">
-                    <div class="footer-links">
-                        <h5>Quick links</h5>
-                        <ul>
-                                {{ $currentPage := . }}
-                                {{ range .Site.Menus.main }}
-                                  {{ if .HasChildren }}
-                                    <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                                      <a href="#">
-                                        {{ .Pre }}
-                                        {{ .Name }}
-                                      </a><i class="fa fa-angle-down"></i>
-                                      <ul class="drop-down one-column">
-                                        {{ range .Children }}
-                                          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                            <a href="{{ .URL }}">{{ .Name }}</a>
-                                        {{ end }}
-                                      </ul>
-                                  {{else}}
-                                    <li>
-                                      <a href="{{.URL}}">
-                                        {{ .Pre }}
-                                        {{ .Name }}
-                                      </a>
-                                  {{end}}
-                                {{end}} 
-                        </ul>
+                <div class="large-4 medium-4 columns text-center">
+                    <div class="footer-logo">
+                        <a><img src="{{ .Site.BaseURL }}/assets/images/EU_Logo.png" width="140" alt=""></a>
+                    </div>
+                    <!-- <p class="merriweather-font">Premium quality multipurpose HTML template</p> --> 
+                    <div style="margin-top:10px;">
+                        <p class="copyright">This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 780229</p> 
                     </div>
                 </div>
                 <div class="large-3 medium-4 columns">
@@ -71,7 +51,7 @@
             <div class="bottom">
                 <div class="row">
                     <div class="large-12 columns text-center">
-                        <p class="copyright">&copy; 2018 WAZIHUB. Made by <a href="https://cloudport.tech">Cloud Port</a>. All Rights Reserved.</p>
+                        <p class="copyright">&copy; 2018 WAZIHUB. Made by <a href="https://cloudport.tech">Cloud Port</a>. All Rights Reserved.</p> 
                     </div>
                 </div>
             </div>

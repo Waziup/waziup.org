@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uganda on wazihub</title>
+    <link>https://wazihub.com/tags/uganda/</link>
+    <description>Recent content in Uganda on wazihub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Sep 2018 12:37:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://wazihub.com/tags/uganda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>_Index</title>
+      <link>https://wazihub.com/bootcamps/</link>
+      <pubDate>Mon, 03 Sep 2018 12:37:37 +0000</pubDate>
+      
+      <guid>https://wazihub.com/bootcamps/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WAZIHUB Launched in Kampala, Uganda</title>
+      <link>https://wazihub.com/news/wazihub-launched/</link>
+      <pubDate>Tue, 01 May 2018 09:04:45 +0300</pubDate>
+      
+      <guid>https://wazihub.com/news/wazihub-launched/</guid>
+      <description>&lt;p&gt;WAZIHUB, an Internet of Things Innovation program, launched today in Kampala, Uganda, as a collaborative problem solving and innovative approach to foster creation of IoT products and services. The launch took place at HiveColab, one of the consortium partners based in Sub-Saharan Africa. HiveColab is an innovation hub and startup incubator in Kampala.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
