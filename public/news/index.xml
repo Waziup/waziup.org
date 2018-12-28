@@ -6,10 +6,21 @@
     <description>Recent content in News on wazihub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 20:47:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wazihub.com/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WAZICamp in Uganda</title>
+      <link>https://wazihub.com/news/wazicamp-in-uganda/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wazihub.com/news/wazicamp-in-uganda/</guid>
+      <description>&lt;p&gt;Wazihub in partnership with WITU organized a 3 day bootcamp at the Hive Colab Innovation Hub, Uganda from the 12th to the 14th of December 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Wazihub Bootcamp in Kumasi</title>

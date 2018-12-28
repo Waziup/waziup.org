@@ -1,13 +1,21 @@
-+++
-categories = []
-date = "2018-12-20T00:00:00+00:00"
-draft = true
-featured_img = "/uploads/2018/12/28/IMG_7226.JPG"
-gallery = []
-tags = []
-title = "WAZICamp in Uganda"
+---
+categories : []
+date : "2018-12-20T00:00:00+00:00"
+draft : false
+featured_img : "/uploads/2018/12/28/IMG_7226.JPG"
+tags : []
+title : "WAZICamp in Uganda"
+gallery:
+- - "/img/bootcamps/2018/12/uganda/ug1.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug2.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug3.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug4.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug5.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug6.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug7.JPG"
+- - "/img/bootcamps/2018/12/uganda/ug8.JPG"   
+---
 
-+++
 Wazihub in partnership with WITU organized a 3 day bootcamp at the Hive Colab Innovation Hub, Uganda from the 12th to the 14th of December 2018.
 
 <!--more-->
