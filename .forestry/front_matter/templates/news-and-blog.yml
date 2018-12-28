@@ -39,3 +39,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- content/news/wazicamp-in-uganda.md
