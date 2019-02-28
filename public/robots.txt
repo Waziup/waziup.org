@@ -1,4 +1,4 @@
 
 User-agent: *
 
-Sitemap: https://wazihub.comsitemap.xml
+Sitemap: https://waziup.orgsitemap.xml

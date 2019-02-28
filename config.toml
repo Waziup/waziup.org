@@ -1,6 +1,6 @@
-baseURL = "https://wazihub.com"
+baseURL = "https://waziup.org"
 languageCode = "en-us"
-title = "wazihub"
+title = "WAZIUP e.V"
 theme = "hyperion"
 publishDir = "public"
 enableRobotsTXT = true

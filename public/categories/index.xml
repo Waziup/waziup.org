@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on wazihub</title>
-    <link>https://wazihub.com/categories/</link>
-    <description>Recent content in Categories on wazihub</description>
+    <title>Categories on WAZIUP e.V</title>
+    <link>https://waziup.org/categories/</link>
+    <description>Recent content in Categories on WAZIUP e.V</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Aug 2018 20:47:38 +0000</lastBuildDate>
     
-	<atom:link href="https://wazihub.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://waziup.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bootcamp</title>
-      <link>https://wazihub.com/categories/bootcamp/</link>
+      <link>https://waziup.org/categories/bootcamp/</link>
       <pubDate>Mon, 06 Aug 2018 20:47:38 +0000</pubDate>
       
-      <guid>https://wazihub.com/categories/bootcamp/</guid>
+      <guid>https://waziup.org/categories/bootcamp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://wazihub.com/categories/news/</link>
+      <link>https://waziup.org/categories/news/</link>
       <pubDate>Fri, 11 Jan 2019 14:36:45 +0000</pubDate>
       
-      <guid>https://wazihub.com/categories/news/</guid>
+      <guid>https://waziup.org/categories/news/</guid>
       <description></description>
     </item>
     
