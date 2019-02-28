@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wazihub.com/news/ilabafrica-wazihub-bootcamp/</loc>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/training/ilabafrica-wazihub-bootcamp/</loc>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/news/wazicamp-in-uganda/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/training/wazicamp-in-uganda/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +33,17 @@
   </url>
   
   <url>
+    <loc>https://wazihub.com/training/wazihub-bootcamp-kumasi/</loc>
+    <lastmod>2018-08-06T20:47:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/news/wazihub-redbull-hacathon/</loc>
+    <lastmod>2018-06-02T10:00:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/training/wazihub-redbull-hacathon/</loc>
     <lastmod>2018-06-02T10:00:57+00:00</lastmod>
   </url>
   
@@ -28,7 +53,17 @@
   </url>
   
   <url>
+    <loc>https://wazihub.com/training/wazihub-launched/</loc>
+    <lastmod>2018-05-01T09:04:45+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/news/join-waziup/</loc>
+    <lastmod>2018-04-20T13:14:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wazihub.com/training/join-waziup/</loc>
     <lastmod>2018-04-20T13:14:21+00:00</lastmod>
   </url>
   
@@ -48,13 +83,23 @@
   </url>
   
   <url>
+    <loc>https://wazihub.com/ecosystem/</loc>
+    <lastmod>2018-03-23T15:41:08+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/events/</loc>
     <lastmod>2018-03-23T15:41:08+02:00</lastmod>
   </url>
   
   <url>
+    <loc>https://wazihub.com/program/</loc>
+    <lastmod>2018-03-23T15:41:08+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/tags/africa/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,7 +141,7 @@
   
   <url>
     <loc>https://wazihub.com/tags/iot-community/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,13 +153,13 @@
   
   <url>
     <loc>https://wazihub.com/news/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wazihub.com/categories/news/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,7 +177,7 @@
   
   <url>
     <loc>https://wazihub.com/tags/startups/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,12 +187,12 @@
   
   <url>
     <loc>https://wazihub.com/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://wazihub.com/tags/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -158,8 +203,14 @@
   </url>
   
   <url>
+    <loc>https://wazihub.com/training/</loc>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wazihub.com/tags/uganda/</loc>
-    <lastmod>2018-09-03T12:37:37+00:00</lastmod>
+    <lastmod>2019-01-11T14:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   

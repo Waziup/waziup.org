@@ -21,15 +21,15 @@ googleAnalytics = "UA-117557016-2"
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "bootcamps"
-    identifier = "bootcamps"
+    name = "program"
+    identifier = "program"
     weight = -9
-    url = "/bootcamps/"
+    url = "/program/"
 [[menu.main]]
-    name = "accelerator"
-    identifier = "accelerator"
+    name = "ecosystem"
+    identifier = "ecosystem"
     weight = -9
-    url = "/accelerator/"
+    url = "/ecosystem/"    
 [[menu.main]]
     name = "use cases"
     identifier = "use_cases"
@@ -48,8 +48,7 @@ googleAnalytics = "UA-117557016-2"
 [[menu.main]]
     name = "contact"
     identifier = "contact"
-    parent = "about"
-    weight = -10
+    weight = -2
     url = "/contact/"
 [[menu.main]]
     name = "about"

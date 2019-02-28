@@ -1,149 +1,23 @@
 {{ define "main" }}
-<!-- HEADER -->
-{{ partial "header.html" . }}
-<!-- END HEADER -->
 <!-- INNER CONTAINER -->
 <div class="inner-container">
     <!-- SECTION -->
-    <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
-        <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/ilab.jpg" alt="">
+    <section class="full-height parallax" data-overlay="2" data-jarallax data-speed="0.2">
+        <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/large9.jpg" alt="">
         <div class="v-middle">
             <div class="row">
-                <div class="large-12 columns text-left">
-                    <!--<h5 class="topheading reveal-from-bottom">Achieve your goals</h5>-->
-                    <h2 class="reveal-from-bottom">Accelerating <em>
-                            <br><strong>IoT and Big-Data</strong></em>
-                        <br>Innovation</h2>
-                    <!--<h4 class="subheader reveal-from-bottom">Accelerating Open IoT and Big-Data Innovation.</h4>-->
-                    <div class="video-button-modal reveal-from-bottom"><a data-rel="lightcase" href="https://www.youtube.com/embed/sf7SRVEChbY?autoplay=1"><span
-                                class="button small filled play"></span> </a> <span>WAZIUP intro video</span></div>
-                </div>
-    </section>
-    <!-- END SECTION -->
-    <!-- SECTION -->
-    <section data-overlay="0" class="white-bg">
-        <div class="v-middle">
-
-            <div class="row row-spacing-mb30">
-                <div class="large-12 columns mb100 small-mb50">
-                    <h3 class="reveal-from-bottom">Our IoT Innovation Program supports startups to:</h3>
-                </div>
-                <div class="medium-4 columns reveal-from-bottom">
-                    <div class="contentbox-style3">
-                        <h5 class="numbered"><span class="number">01</span> <span>Accelerate</span></h5>
-                        <p>The WAZIHUB Accelerator program provide IoT startups and entrepreneurs with technical and
-                            business capacity building through training bootcamps, seminars, growth hacking resources
-                            and workshops.</p>
-                    </div>
-                </div>
-                <div class="medium-4 columns reveal-from-bottom">
-                    <div class="contentbox-style3">
-                        <h5 class="numbered"><span class="number">02</span> <span>Prototype</span></h5>
-                        <p>Our "Out-of-the-Box” IoT development kit includes SDKs, IoT Gateway and Big Data Platform.
-                            The kit offers all the features to develop IoT sensor application. We also help you to
-                            prototype and deploy your products rapidly
-                        </p>
-                    </div>
-                </div>
-                <div class="medium-4 columns reveal-from-bottom">
-                    <div class="contentbox-style3">
-                        <h5 class="numbered"><span class="number">03</span> <span>Launch</span></h5>
-                        <p>WAZIHUB offers specific support to startups who complete our accelerator program to adapt
-                            IoT-Big data open source platform towards iniital market replication. We also suppport the
-                            next generation IoT high-tech SMEs in Africa.</p>
-                    </div>
+                <div class="large-12 columns text-center">
+                    <h5 class="topheading reveal-from-bottom">WAZIUP Association</h5>
+                    <h1 class="reveal-from-bottom">launching<em> soon</em></h1>
+                    <h5 class="subheader reveal-from-bottom">Hit the contact us button below to get in touch with us.</h5>
+                    <a href="mailto:fiifi.baidoo@waziup.org" class="button filled rounded reveal-from-bottom">Contact Us</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- END SECTION -->
-    <!-- SECTION -->
-    <section class="medium-height parallax" data-overlay="5" data-jarallax data-speed="0.2">
-        <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/background/_DSC7887.jpg" alt="">
-        <div class="v-middle">
-            <div class="row">
-                <h5 class="vertical-heading float-right">- Training Guides</h5>
-                <div class="large-6 columns text-right float-right">
-                    <!--<h5 class="topheading reveal-from-bottom">Guides</h5>-->
-                    <h2 class="reveal-from-bottom">Learn how to build and deploy IoT Apps</h2>
-                    <p class="lead reveal-from-bottom">
-                        <h4>Step by step guide to create and deploy your IoT applications in the Cloud and on low-cost
-                            long-range IoT gateways.</h4>
-                    </p>
-                    <a class="button rounded white reveal-from-bottom" href="/guides/">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SECTION -->
-    <!-- SECTION -->
-    <section class="white-bg carousel" data-overlay="0">
-        <div class="v-middle">
-            <div class="row">
-                <div class="large-12 columns text-center mb100 small-mb50">
-                    <h3 class="reveal-from-bottom">Our Partners</h3>
-                </div>
-                <div class="large-12 columns">
-                    <div class="owl-carousel clients-carousel">
-                        <div><a href="https://www.orange.com/en/home" target="_blank"><img style="background: white;"
-                                    src="{{ .Site.BaseURL }}/assets/images/partners/orange.jpg" alt=""></a></div>
-                        <div><a href="http://www.sonatel.sn" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/sonatel.png"
-                                    alt=""></a> </div>
-                        <div><a href="https://create-net.fbk.eu/en/" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/cnet.png"
-                                    alt=""></a> </div>
-                        <div><a href="http://innotec21.com/" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/innotec.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="http://ispacegh.com/" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/ispace.png"
-                                    alt=""></a> </div>
-                        <div><a href="http://www.ugb.sn/" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/ugb.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="http://kumasihive.com" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/kumasi_hive.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="#" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/buni.png"
-                                    alt=""></a> </div>
-                        <div><a href="http://www.ilabafrica.ac.ke" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/ilab.png"
-                                    alt=""></a> </div>
-                        <div><a href="http://themakerspace.co.za" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/tms.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="http://www.univ-pau.fr/live/" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/uppa.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="https://hivecolab.org" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/hive_colab.jpg"
-                                    alt=""></a> </div>
-                        <div><a href="http://witug.org" target="_blank"><img src="{{ .Site.BaseURL }}/assets/images/partners/witu.png"
-                                    alt=""></a> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SECTION -->
-    <!-- SECTION -->
-    <section class="parallax" data-overlay="5" data-jarallax data-speed="0.2">
-        <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/waziup-hcmut.jpg" alt="">
-        <div class="v-middle">
-            <div class="row">
-                <!-- HEADING -->
-                <div class="large-12 columns text-center mb100 small-mb50">
-                    <h2 class="reveal-from-bottom">Subscribe to our <em> mailing list</em></h2>
-                </div>
-                <!-- END HEADING -->
-                <div class="large-5 small-12 large-centered columns reveal-from-bottom">
-                    <form role="form" class="call-to-action-form" action="https://waziup.us12.list-manage.com/subscribe/post?u=25f241835e6aa7ce0342aab22&amp;id=f8b44336d4"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank" novalidate>
-                        <input type="email" value="" name="EMAIL" id="mce-EMAIL" required class="rounded mb0"
-                            placeholder="Email Address">
-                        <button type="submit" id="mc-embedded-subscribe" name="subscribe" class="rounded filled">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
 <!-- END INNER CONTAINER -->
-<!-- FOOTER -->
-{{ partial "footer.html" . }}
-<!-- END FOOTER -->
 <!-- BACK TO TOP -->
 <a href="#0" class="backtotop"></a>
 <!-- END BACK TO TOP -->
