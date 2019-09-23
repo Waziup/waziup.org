@@ -17,43 +17,43 @@ googleAnalytics = "UA-117557016-2"
 
 [[menu.main]]
     name = "home"
-    weight = -10
+    weight = 1
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "program"
-    identifier = "program"
-    weight = -9
-    url = "/program/"
+    name = "projects"
+    identifier = "projects"
+    weight = 2
+    url = "https://www.wazihub.com"    
 [[menu.main]]
-    name = "ecosystem"
-    identifier = "ecosystem"
-    weight = -9
-    url = "/ecosystem/"    
-[[menu.main]]
-    name = "use cases"
-    identifier = "use_cases"
-    weight = -8
-    url = "/use_cases/"
+    name = "services"
+    identifier = "services"
+    weight = 3
+    url = "/"
 [[menu.main]]
     name = "technology"
     identifier = "technology"
-    weight = -7
+    weight = 4
     url = "http://www.waziup.io"    
 [[menu.main]]
     name = "news & blog"
     identifier = "newsroom"
-    weight = -6
-    url = "/news/"    
+    weight = 5
+    url = "https://wazihub.com/news/"    
 [[menu.main]]
     name = "contact"
     identifier = "contact"
-    weight = -2
+    weight = 5
     url = "/contact/"
 [[menu.main]]
     name = "about"
     identifier = "about"
-    weight = -9
+    weight = 7
+    url = "/about/"    
+[[menu.main]]
+    name = "nodes"
+    identifier = "nodes"
+    weight = 8
     url = "/about/"    
    
     

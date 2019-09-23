@@ -1,0 +1,98 @@
+{{ define "main" }}
+<!-- HEADER -->
+{{ partial "header.html" . }}
+<!-- END HEADER -->
+<!-- INNER CONTAINER -->
+<div class="inner-container">
+    <!-- SECTION -->
+    <section class="split-section pt90 pb90 medium-height light-bg" data-overlay="0">
+        <div class="v-middle">
+            <div class="row">
+                <div class="large-6 columns v-middle text-left reveal-from-bottom">
+                    <h2 class="numbered"><span class="number"></span> <span>What we do</span></h2>
+                    <!-- <h2 class="reveal-from-bottom"><b>Our <em>Concept</em></b></h2> -->
+                    <p class="lead reveal-from-bottom">{{ .Content }}</p>
+                </div>
+                <div class="large-6 columns v-middle">
+                    <div class="video-placeholder video-box reveal-from-right">
+                        <a data-rel="lightcase" href="https://www.youtube.com/embed/sf7SRVEChbY?autoplay=1"> <img
+                                src="{{ .Site.BaseURL }}/assets/images/proto_board_waziup_WS.png" alt=""> <span
+                                class="button filled play"></span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION -->
+    <!-- SECTION -->
+    <section class="sticked-boxes" data-overlay="0">
+        <div class="v-middle">
+            <div class="row">
+                <div class="large-12 columns text-center mb100 small-mb50">
+                    <h3 class="reveal-from-bottom">Meet Our Team</h3>
+                </div>
+                <!-- TEAM BLOCK -->
+                <div class="large-3 columns team-block reveal-from-bottom">
+                    <div class="team-block-inner" onclick=""> <img src="{{ .Site.BaseURL }}/assets/images/abdur_rahim.jpg" />
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <h2>Abdur Rahim</h2>
+                                <p>Managing Director</p>
+                                <p class="icon-links"> <a href="https://twitter.com/AbdurRB"><i class="fa fa-twitter"></i></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END TEAM BLOCK -->
+                <!-- TEAM BLOCK -->
+                <div class="large-3 columns team-block reveal-from-bottom">
+                    <div class="team-block-inner" onclick=""> <img src="{{ .Site.BaseURL }}/assets/images/baidoo.jpg" />
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <h2>Fiifi Baidoo</h2>
+                                <p>Innovation Manager</p>
+                                <p class="icon-links"> <a href="https://www.linkedin.com/in/fiifibaidoo/"><i class="fa fa-linkedin"></i></a> <a href="https://twitter.com/fiifibaidoo"><i class="fa fa-twitter"></i></a> <a href="https://github.com/fiifibaidoo"><i class="fa fa-github"></i></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END TEAM BLOCK -->
+                <!-- TEAM BLOCK -->
+                <div class="large-3 columns team-block reveal-from-bottom">
+                    <div class="team-block-inner" onclick=""> <img src="{{ .Site.BaseURL }}/assets/images/corentin.jpg" />
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <h2>Corentin Dupont</h2>
+                                <p>Technical Director</p>
+                               <p class="icon-links"> <a href="https://github.com/cdupont"><i class="fa fa-github"></i></a> </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END TEAM BLOCK -->
+                <!-- TEAM BLOCK -->
+                <div class="large-3 columns team-block reveal-from-bottom">
+                    <div class="team-block-inner" onclick=""> <img src="{{ .Site.BaseURL }}/assets/images/CONGDUC_PHAM.jpeg" />
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <h2>Congduc Pham</h2>
+                                 <!-- <p>Photographer</p> -->
+                                <p class="icon-links"><a href="https://www.youtube.com/channel/UCy386aSmA4HXlk_D_9dHrQQ"><i class="fa fa-youtube"></i></a> <a href="https://github.com/CongducPham"><i class="fa fa-github"></i></a> </p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END TEAM BLOCK -->
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION -->
+</div>
+<!-- END INNER CONTAINER -->
+<!-- FOOTER -->
+{{ partial "footer.html" . }}
+<!-- END FOOTER -->
+<!-- BACK TO TOP -->
+<a href="#0" class="backtotop"></a>
+<!-- END BACK TO TOP -->
+{{ end }}

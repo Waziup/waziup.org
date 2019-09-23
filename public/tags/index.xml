@@ -10,5 +10,14 @@
 	<atom:link href="https://waziup.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Wazihack</title>
+      <link>https://waziup.org/tags/wazihack/</link>
+      <pubDate>Sat, 25 Feb 2017 15:45:19 +0000</pubDate>
+      
+      <guid>https://waziup.org/tags/wazihack/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

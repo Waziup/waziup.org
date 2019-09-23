@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wazihack on WAZIUP e.V</title>
+    <link>https://waziup.org/tags/wazihack/</link>
+    <description>Recent content in Wazihack on WAZIUP e.V</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Feb 2017 15:45:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://waziup.org/tags/wazihack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WAZIHack Ghana 2017</title>
+      <link>https://waziup.org/news/wazihack-ghana/</link>
+      <pubDate>Sat, 25 Feb 2017 15:45:19 +0000</pubDate>
+      
+      <guid>https://waziup.org/news/wazihack-ghana/</guid>
+      <description>&lt;p&gt;This event took place in iSpace the 24-25 February 2017.
+In Ghana, the participants were not very familiar with the Arduinos and LoRa. The format was modified and turned into an Introduction to IoT, the sample sensors, how to assemble the devices, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

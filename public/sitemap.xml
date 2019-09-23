@@ -3,16 +3,163 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://waziup.org/news/standardization-gap-session/</loc>
+    <lastmod>2018-05-15T22:08:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/training-with-aceiot/</loc>
+    <lastmod>2018-05-09T05:35:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/wazihack-2017-at-ispace/</loc>
+    <lastmod>2018-04-16T21:33:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/contact/</loc>
+    <lastmod>2018-04-16T14:00:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/wazup-at-iot-tunisia/</loc>
+    <lastmod>2018-04-15T10:53:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/iot-applications-training/</loc>
+    <lastmod>2018-04-15T10:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/platform-version2/</loc>
+    <lastmod>2018-04-15T10:44:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/waziup&#43;loranga/</loc>
+    <lastmod>2018-04-15T10:24:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/business-spin-off/</loc>
+    <lastmod>2018-04-15T09:19:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/ensa-safi-morocco/</loc>
+    <lastmod>2018-03-19T09:54:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/waziup-in-morocco/</loc>
+    <lastmod>2018-03-13T09:12:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/suts-cdf/</loc>
+    <lastmod>2018-02-06T08:53:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/waziup-hcmut/</loc>
+    <lastmod>2018-01-29T08:53:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/waziup-in-bangladesh/</loc>
+    <lastmod>2018-01-23T17:22:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/ugb-workshop/</loc>
+    <lastmod>2017-12-15T00:08:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/wazihack-senegal/</loc>
+    <lastmod>2017-12-14T15:40:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/iot-clubs-in-benin/</loc>
+    <lastmod>2017-04-19T00:00:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/wazihack-togo/</loc>
+    <lastmod>2017-03-07T14:59:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/wazihack-ghana/</loc>
+    <lastmod>2017-02-25T15:45:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/build-waziup-gateway/</loc>
+    <lastmod>2016-11-09T16:05:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/ugb-gateway/</loc>
+    <lastmod>2016-10-23T16:23:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/iot-big-data-2016/</loc>
+    <lastmod>2016-07-18T17:01:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/fish-farm-visit/</loc>
+    <lastmod>2016-07-18T16:57:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/workshop-in-ghana/</loc>
+    <lastmod>2016-07-18T16:42:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/waziup-milestones/</loc>
+    <lastmod>2016-07-18T16:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/news/iot-week-2016/</loc>
+    <lastmod>2016-06-08T17:08:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://waziup.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://waziup.org/news/</loc>
+    <lastmod>2018-05-15T22:08:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://waziup.org/</loc>
+    <lastmod>2018-05-15T22:08:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://waziup.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://waziup.org/tags/wazihack/</loc>
+    <lastmod>2017-02-25T15:45:19+00:00</lastmod>
     <priority>0</priority>
   </url>
   

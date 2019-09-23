@@ -1,21 +1,64 @@
 {{ define "main" }}
+<!-- HEADER -->
+{{ partial "header.html" . }}
 <!-- INNER CONTAINER -->
 <div class="inner-container">
     <!-- SECTION -->
-    <section class="full-height parallax" data-overlay="2" data-jarallax data-speed="0.2">
-        <img class="jarallax-img" src="{{ .Site.BaseURL }}/assets/images/large9.jpg" alt="">
+    <section class="full-height show-scrolldown-btn parallax" data-overlay="5" data-jarallax data-speed="0.2">
+        {{ range first 1 (where .Pages "Section" "news") }}
+        <img class="jarallax-img" src="{{ .Site.BaseURL }}/{{.Params.featured_img}}" alt="">
         <div class="v-middle">
             <div class="row">
                 <div class="large-12 columns text-center">
-                    <h5 class="topheading reveal-from-bottom">WAZIUP Association</h5>
-                    <h1 class="reveal-from-bottom">launching<em> soon</em></h1>
-                    <h5 class="subheader reveal-from-bottom">Hit the contact us button below to get in touch with us.</h5>
-                    <a href="mailto:fiifi.baidoo@waziup.org" class="button filled rounded reveal-from-bottom">Contact Us</a>
+                    <!-- <h5 class="topheading reveal-from-bottom">Travelling</h5>-->
+                    <h2 class="reveal-from-bottom">{{ .Title }}</h2>
+                    <!-- POST META -->
+                    <div class="post-meta reveal-from-bottom">
+                        <p>
+                            <ul>
+                                <!--<li>By: <a href="#">James Parker</a></li> -->
+                                <li>On: <span>{{ .Date.Format "Mon Jan 2, 2006" }}</span></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- END POST META -->
+                    <a class="button rounded white reveal-from-bottom" href="{{ .Permalink }}">Read more</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </section>
+    <!-- END SECTION -->
+    <!-- SECTION -->
+    <section>
+        <div class="row">
+            <div class="medium-4 columns mb50">
+                <h3>Address:</h3>
+                <p><strong>Project Coordinator</strong><br />
+                    <a href="mailto:abdur.rahim@waziup.org">Dr, -Ing Abdur Rahim</a><br />
+                    Lipsiusstraße, <br /> 01309 ,<br /> Dresden, <br /> Germany</p>
+
+                <p><strong>Innovation Manager</strong><br />
+                    <a href="mailto:fiifi@cloudport.tech">Fiifi Baidoo</a><br />
+                    iSpace Foundation, <br /> No 14 Otu Adzin Rd<br /> Spintex, Accra<br /> Ghana</p>
+            </div>
+            <div class="medium-8 columns">
+                <div class="form-block">
+                    <h5>Get In Touch</h5>
+                    <div class="typeform-widget" data-url="https://fiifibaidoo.typeform.com/to/pp5W20"
+                        data-transparency="50" data-hide-headers=true data-hide-footer=true
+                        style="width: 100%; height: 500px;"></div>
+                    <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+                    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">
+                        powered by <a
+                            href="https://admin.typeform.com/signup?utm_campaign=iAZIee&utm_source=typeform.com-12008006-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+                            style="color: #999" target="_blank">Typeform</a> </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END SECTION -->
+</div>
 </div>
 <!-- END INNER CONTAINER -->
 <!-- BACK TO TOP -->
